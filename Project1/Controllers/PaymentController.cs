@@ -14,14 +14,14 @@ namespace Hafta1_Proje1.Controllers
 
         [HttpGet]
         [Route("Ammounts")]
-        public List<Ammonuts> Amounts(double capital, int date)
+        public List<Amounts> Amounts(double capital, int date)
         {
             double interestRate = 0.05;
             double total = capital * (1 + (interestRate*date));
             double interest = capital * (1 + (interestRate * date)) - capital;
             double monthly = capital * (1 + interestRate) / date;
 
-            var result = Enumerable.Range(1, 1).Select(index => new Ammonuts
+            var result = Enumerable.Range(1, 1).Select(index => new Amounts
             {
               PaymentAmount= Math.Round(total, 3),
               InterestAmount= Math.Round(interest, 3)
