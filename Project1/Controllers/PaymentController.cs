@@ -13,7 +13,7 @@ namespace Hafta1_Proje1.Controllers
     {
 
         [HttpGet]
-        [Route("Ammounts")]
+        [Route("Amounts")]
         public List<Amounts> Amounts(double capital, int date)
         {
             double interestRate = 0.05;
