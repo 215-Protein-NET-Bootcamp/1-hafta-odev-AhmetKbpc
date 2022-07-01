@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Hafta1-Proje1",
+      "appliesTo": "Hafta1-Proje1/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Hafta1-Proje1",
+      "appliesTo": "Hafta1-Proje1/",
+      "type": "launch"
+    }
+  ]
+}
