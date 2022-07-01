@@ -1,15 +1,57 @@
 {
   "version": 2,
-  "dgSpecHash": "pSJbOw4qd/NdL0GSct5Ks4UAFARKZZdPPcAJORw8/Uvq6Xf4ZHwykI1beJxBVzxBvdCLcnLdaVf1KrDDSvfj4g==",
-  "success": true,
+  "dgSpecHash": "qs6U9DlExXB31VCW5PvBebn+s4MPXxdlA4HqlVAbuTeFFFWE5rHz9DyAYhY9vBWNZehBJyHynd+gDma0XdzvWw==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Ahmet\\source\\repos\\1-hafta-odev-AhmetKbpc\\Hafta1-Proje1\\Hafta1-Proje1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0-preview.5.22302.2\\microsoft.entityframeworkcore.7.0.0-preview.5.22302.2.nupkg.sha512",
+    "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0-preview.5.22302.2\\microsoft.entityframeworkcore.design.7.0.0-preview.5.22302.2.nupkg.sha512",
+    "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0-preview.5.22302.2\\microsoft.entityframeworkcore.sqlserver.7.0.0-preview.5.22302.2.nupkg.sha512",
     "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\7.0.0-preview.5.22313.5\\microsoft.visualstudio.web.codegeneration.design.7.0.0-preview.5.22313.5.nupkg.sha512",
     "C:\\Users\\Ahmet\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Ahmet\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Ahmet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Ahmet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Ahmet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Ahmet\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 7.0.0-preview.5.22302.2 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore 7.0.0-preview.5.22302.2 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 7.0.0-preview.5.22302.2 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore.SqlServer 7.0.0-preview.5.22302.2 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Design 7.0.0-preview.5.22302.2 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore.Design 7.0.0-preview.5.22302.2 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.VisualStudio.Web.CodeGeneration.Design 7.0.0-preview.5.22313.5 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.VisualStudio.Web.CodeGeneration.Design 7.0.0-preview.5.22313.5 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
