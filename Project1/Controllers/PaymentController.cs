@@ -11,13 +11,14 @@ namespace Hafta1_Proje1.Controllers
     [ApiController]
     public class PaymentController : ControllerBase
     {
+
         [HttpGet]
         [Route("Ammounts")]
         public List<Ammonuts> Amounts(double capital, int date)
         {
             double interestRate = 0.05;
             double total = capital * (1 + (interestRate*date));
-            double interest = (capital * (1 + interestRate)) - capital;
+            double interest = capital * (1 + (interestRate * date)) - capital;
             double monthly = capital * (1 + interestRate) / date;
 
             var result = Enumerable.Range(1, 1).Select(index => new Ammonuts
@@ -33,12 +34,13 @@ namespace Hafta1_Proje1.Controllers
 
         [HttpGet]
         [Route("MonthlyPlan")]
-        public List<MonthlyPayment> Amounts2(double capital, int date )
+        public List<MonthlyPayment> MonthlyPlan(double capital, int date )
         {
             double interestRate = 0.05;
             double total = capital * (1 + (interestRate * date));
-            double interest = (capital * (1 + interestRate)) - capital;
+            double interest = capital * (1 + (interestRate * date)) - capital;
             double monthly = capital * (1 + interestRate) / date;
+
             var result = Enumerable.Range(1, date).Select(index => new MonthlyPayment
             {
                 Month = index,
